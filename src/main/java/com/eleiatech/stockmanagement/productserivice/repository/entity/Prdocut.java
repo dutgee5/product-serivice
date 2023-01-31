@@ -28,7 +28,7 @@ public class Prdocut {
      private double price;
 
      @Builder.Default
-     @Column(name = "product_uptade_date")
+     @Column(name = "product_update_date")
      @Temporal(TemporalType.TIMESTAMP)
      @JsonFormat(pattern = "yyyy-MM-dd")
      private Date productUpdateDate =new Date();
